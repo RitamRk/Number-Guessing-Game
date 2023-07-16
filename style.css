@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #350363;
+    --background: #ffe9db;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #491579;
+}
+
+main {
+    width: 30vw;
+    text-align: center;
+    background-color: var(--background);
+    border: solid var(--dark);
+    border-width: 0.8rem;
+    border-radius: 1rem;
+    padding: 80px 50px;
+    color: #1f2933;
+}
+
+
+h2 {
+    font-size: 2.2rem;
+    margin: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+img {
+    width: 90%;
+    max-height: 22rem;
+    height: auto;
+    margin: 1rem 0 4rem 0;
+    border-radius: 20px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    gap: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button{
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #4C43CD;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+#gameArea {
+    /* height: 35vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newGameButton button {
+    margin: 2rem 0;
+}
+
+input {
+    border: .1rem solid lightgray;
+    background: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    width: 25rem;
+    text-align: center;
+}
+
+.stats {
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.info span {
+    font-size: 2rem;
+    color: #ff0511;
+}
