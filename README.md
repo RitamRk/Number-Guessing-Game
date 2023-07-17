@@ -1,0 +1,3 @@
+# Number Guessing Game using HTML, CSS & JavaScript
+
+Embark on a thrilling Number Guessing Game adventure! Test your intuition by selecting Easy or Hard mode. In Easy mode, you'll have 10 attempts to guess a number between 1 and 100, while Hard mode challenges you with just 5 attempts. Start by choosing your preferred mode. As you enter your guesses in the input box, the game will guide you, revealing if the secret number is higher or lower. Keep refining your guesses until you hit the jackpot! With anticipation building with each attempt, immerse yourself in the excitement of this addictive game and see if you can conquer the challenge. Good luck!
